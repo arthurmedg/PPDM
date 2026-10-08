@@ -3,18 +3,16 @@ import { colors } from "../../themes/colors";
 import { fonts } from "../../themes/fonts";
 
 export const styles = StyleSheet.create({
-    containerStartScreen:{
+    containerHomeScreen: {
         flex: 1,
         backgroundColor: colors.colorDarkPurple,
-        justifyContent: "center",
-        alignItems: "center",
-        gap: 40 
+        gap: 40,
+        paddingLeft: 20
     },
 
-    textWelcome:{
-        fontFamily: fonts.fontBody,
-        fontSize: 20,
-        color: colors.colorGray,
-        textAlign: "center"
+    logoHome: {
+        height: 55,
+        width: 140
     }
+    
 })
