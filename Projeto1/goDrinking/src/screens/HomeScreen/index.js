@@ -3,6 +3,7 @@ import  logo  from "../../assets/images/logo.png"
 import { styles } from "./style"
 import {useFonts} from "expo-font"
 import { OurOffers } from "../../components/OurOffers"
+import { AvailableSizes } from "../../components/AvailableSizes"
 
 export const HomeScreen = () => {
     return(
@@ -12,6 +13,8 @@ export const HomeScreen = () => {
 
             <OurOffers/>
             
+            <AvailableSizes/>
+
         </View>
 
     )
