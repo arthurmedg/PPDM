@@ -6,7 +6,7 @@ import { styles } from "./style"
 
 export const OurOffers = () => {
     return (
-        <View style={styles.containerStartScreen}>
+        <View style={styles.containerOurOffers}>
 
             <Text style={styles.textOurOffers}>Nossas <Text style={styles.textHighlight}>Ofertas</Text></Text>
 
