@@ -4,6 +4,7 @@ import { styles } from "./style"
 import {useFonts} from "expo-font"
 import { OurOffers } from "../../components/OurOffers"
 import { AvailableSizes } from "../../components/AvailableSizes"
+import { OurHighlights } from "../../components/OurHighlights"
 
 export const HomeScreen = () => {
     return(
@@ -14,6 +15,8 @@ export const HomeScreen = () => {
             <OurOffers/>
             
             <AvailableSizes/>
+
+            <OurHighlights/>
 
         </View>
 
