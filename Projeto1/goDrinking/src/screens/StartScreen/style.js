@@ -16,5 +16,9 @@ export const styles = StyleSheet.create({
         fontSize: 20,
         color: colors.colorGray,
         textAlign: "center"
+    },
+
+    teste:{
+        color: "#fff"
     }
 })
