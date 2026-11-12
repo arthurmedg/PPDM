@@ -5,7 +5,7 @@ import { HomeScreen } from "../screens/HomeScreen"
 import { ProductsScreen } from "../screens/ProductsScreen"
 import { DetailsProduct } from "../screens/DetailsProduct"
 
-export const AppRoutes = () => {
+export const AppRouter = () => {
     
     const Stack = createNativeStackNavigator()
 
@@ -17,7 +17,7 @@ export const AppRoutes = () => {
                 <Stack.Screen name="home" component={HomeScreen}/>
                 <Stack.Screen name="products" component={ProductsScreen}/>
                 <Stack.Screen name="details" component={DetailsProduct}/>
-                
+
             </Stack.Navigator>
         </NavigationContainer>
         
